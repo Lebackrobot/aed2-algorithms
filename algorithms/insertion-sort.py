@@ -1,12 +1,12 @@
 # -*- coding utf-8 -*-
-def insertion_sort(A):
-    for j in range(1, len(A)):
+def insertion_sort(array):
+    for j in range(1, len(array)):
         
-        key = A[i]
+        key = array[i]
         i = j - 1
 
-        while i >= 0 and key < A[j]:
-            A[i + 1] = A[i]
+        while i >= 0 and key < array[j]:
+            array[i + 1] = array[i]
             i -= 1
-            A[i + 1] = key
+            array[i + 1] = key
 
